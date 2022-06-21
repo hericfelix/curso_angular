@@ -1,0 +1,8 @@
+<h1 class="title">{{ title }}</h1>
+<article class="card">
+  <h2>
+    {{ collaborator.nome }}
+  </h2>
+  <p>Cargo: {{ collaborator.cargo }}</p>
+  <p>Salário: R$ {{ collaborator.salario.toLocaleString("pt-BR") }},00</p>
+</article>
